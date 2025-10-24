@@ -1,5 +1,5 @@
 ````markdown
-# 🧠 Performance Evaluation of Supercapacitor-Integrated DRAM Cells  
+# Performance Evaluation of Supercapacitor-Integrated DRAM Cells  
 ### *Compared to Conventional DRAM for Enhanced Efficiency and Reliability*  
 
 **Authors:**  
