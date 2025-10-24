@@ -58,7 +58,6 @@ Replaces C0 with a high-density **supercapacitor** to enhance retention.
 | VDD | 5V | Operating voltage |
 | RSC | 1kΩ–10kΩ | ESR of supercap |
 
----
 
 ## 🧰 Simulation Setup  
 ### eSim/KiCad Steps  
@@ -74,16 +73,7 @@ Replaces C0 with a high-density **supercapacitor** to enhance retention.
    .SAVE V(BL) V(WL) V(Q)
 ````
 
-4. Run via NgSpice and plot outputs.
-
-ngspice dram_cell.cir
-plot v(BL) v(WL) v(Q)
-
-Expected: WL (green), BL (magenta), Q (red).
-
----
-
-## 📊 Results Summary
+## Results Summary
 
 | Observation      | Standard DRAM | Supercapacitor DRAM |
 | ---------------- | ------------- | ------------------- |
@@ -95,9 +85,7 @@ Expected: WL (green), BL (magenta), Q (red).
 
 **Optimum:** 500nm NMOS + 1nF Supercap.
 
----
-
-## 🧠 Analysis Equations
+##  Analysis Equations
 
 [T_{ret} = \frac{0.5 \times C \times V_{DD}}{I_{leak}}]
 [T_{ret,new} = \frac{0.5 \times (C_{DRAM} + C_{SC}) \times V_{DD}}{I_{leak,eff}}]
@@ -106,7 +94,7 @@ Expected: WL (green), BL (magenta), Q (red).
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 * Hybrid capacitor configuration.
 * Scaling to <65nm nodes.
