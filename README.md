@@ -76,10 +76,8 @@ Replaces C0 with a high-density **supercapacitor** to enhance retention.
 
 4. Run via NgSpice and plot outputs.
 
-```bash
 ngspice dram_cell.cir
 plot v(BL) v(WL) v(Q)
-```
 
 Expected: WL (green), BL (magenta), Q (red).
 
@@ -156,7 +154,7 @@ Expected: WL (green), BL (magenta), Q (red).
 
 ## 💬 Contact
 
-📧 [souptikroy.ee@gmail.com](mailto:souptikroy.ee@gmail.com)
+📧 [souptikinfo77.@gmail.com]
 🔗 [LinkedIn](https://www.linkedin.com)
 🏫 University: UEM Kolkata
 
