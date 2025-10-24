@@ -2,7 +2,7 @@
 ### *Compared to Conventional DRAM for Enhanced Efficiency and Reliability*  
 
 **Authors:**  
-Souptik Roy, Abir Chattopadhyay, Subhajit Das  
+Souptik Roy, Dr. Abir Chattopadhyay, Dr. Subhajit Das  
 *Department of Electronics & Communication Engineering,  
 University of Engineering and Management, Kolkata*  
 
@@ -71,7 +71,6 @@ Replaces C0 with a high-density **supercapacitor** to enhance retention.
    TRAN 0.01u 1m
    .OPTIONS RELTOL=0.001 ABSTOL=1e-6
    .SAVE V(BL) V(WL) V(Q)
-````
 
 ## Results Summary
 
@@ -128,7 +127,7 @@ Replaces C0 with a high-density **supercapacitor** to enhance retention.
 
 ## 🧑‍💻 Citation
 
-> **Souptik Roy**, Abir Chattopadhyay, Subhajit Das.
+> **Souptik Roy**, Dr.Prof.Abir Chattopadhyay, Dr.Prof. Subhajit Das.
 > *Performance Evaluation of Supercapacitor-Integrated DRAM Cells Compared to Conventional DRAM for Enhanced Efficiency and Reliability.*
 > IEM, University of Engineering and Management, Kolkata.
 
