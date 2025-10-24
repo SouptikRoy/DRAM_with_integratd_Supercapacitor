@@ -32,6 +32,11 @@ Modern DRAM faces challenges with charge leakage and refresh requirements. The p
 | **Bit Line (BL)** | Data transfer line |
 | **Vbit/Vword Inputs** | Write and control pulses |
 
+![Schematic](DRAm_Final_Sch.PNG)
+![Schematic](DRAM_Sch_img.png)
+![Schematic](Sch_.jpg)
+
+
 ### 🧠 Supercapacitor Integration  
 Replaces C0 with a high-density **supercapacitor** to enhance retention.  
 \[\tau_{new} = 0.69 \times (R_{NMOS} + R_{SC}) \times (C_{DRAM} + C_{SC})\]
@@ -84,12 +89,34 @@ Replaces C0 with a high-density **supercapacitor** to enhance retention.
 
 **Optimum:** 500nm NMOS + 1nF Supercap.
 
+![Performance](test1.png)
+![Waveform](Test4.PNG)
+![Waveform](Test6.PNG)
+![Waveform](Test7.PNG)
+![Waveform](Test8.PNG)
+![Waveform](Test9.PNG)
+![Waveform](Test10.PNG)
+![Waveform](Test11.PNG)
+
 ##  Analysis Equations
 
 [T_{ret} = \frac{0.5 \times C \times V_{DD}}{I_{leak}}]
 [T_{ret,new} = \frac{0.5 \times (C_{DRAM} + C_{SC}) \times V_{DD}}{I_{leak,eff}}]
 
 **Where:** (I_{leak,eff} = I_{junction} + I_{SC})
+
+![Evaluation](RiseTime_FallTime.png)
+![Evaluation](DRAM_Response_Analysis.png)
+![Analysis]{DRAM_Response_Research_Quality.png)
+![Analysis](DRAM_Response_Times.png)
+---
+
+![Comparison](SuperCap_Com1.png)
+![Comparison](SuperCap_Com2.png)
+![Analysis](SuperCap_Performance.png)
+![Analysis](dram_supercap_performance.png)
+![Response](dram_theoritical_response.png)
+![Response](spaced_dram_comparison.png)
 
 ---
 
